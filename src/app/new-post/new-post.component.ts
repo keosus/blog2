@@ -7,9 +7,9 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-newpost',
   templateUrl: './new-post.component.html',
-  styleUrls: ['./new-post.component.css']
+  styleUrls: ['./new-post.component.scss']
 })
-export class NewpostComponent implements OnInit {
+export class NewPostComponent implements OnInit {
 
   postForm: FormGroup;
 
